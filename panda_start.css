@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background: url(images/bgr_panda.jpg) fixed center;
+    height: 100%;
+    text-align: center;
+    border: 10px solid gray;
+}
+
+body{
+    background-color: rgba(255, 238, 241, 0.62);
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    content: url(images/panda.png);
+    animation: statement-change 1.5s infinite,moved 50s linear infinite;
+    position: relative;
+}
+
+@keyframes statement-change
+{
+    100%{
+        content: url(images/panda2.png);
+    }
+}
+
+@keyframes moved{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.tittle{
+    font-family: "Bungee Shade", serif;
+    font-size: 40px;
+    color:antiquewhite;
+    padding: 16px 16px;
+    background-color: rgba(0, 0, 0, 0.419);
+    display: inline;
+    border-radius: 6px;
+    border: 2px solid antiquewhite;
+}
+
+.question{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.question li{
+    display: inline-block;
+    width: 23%;
+    height: 100%;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid brown;
+}
+
+
+.question_1 .box_1{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda_fall 0.5s infinite linear alternate;
+} 
+
+@keyframes panda_fall
+{
+    0%{
+        content: url(images/Panda-fall\ .png);
+    }
+
+    100%{
+        content: url(images/Panda-fall\ \ 2.png);
+    }
+}
+
+.question_2 .box_2{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda_smile 0.5s linear alternate infinite;
+} 
+
+@keyframes panda_smile {
+    0%{
+        content: url(images/Panda\ smile.png);
+    }
+    100%{
+        content: url(images/Panda\ smile\ 2.png);
+    }
+}
+
+.question_3 .box_3{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda-furious 0.5s linear alternate infinite;
+} 
+
+@keyframes panda-furious {
+    0%{
+        content: url(images/Panda_furious.png);
+    }
+    100%{
+        content: url(images/Panda_furious\ 2.png);
+    }
+}
+
+.question_4 .box_4{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+
+    animation: panda-apple 0.5s infinite linear alternate;
+} 
+
+@keyframes panda-apple {
+    0%{
+        content: url(images/Panda_apple.png);
+    }
+    100%{
+        content: url(images/Panda_apple\ 2.png);
+    }
+}
+
+.question_5 .box_5{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda-butt 0.5s infinite linear alternate;
+} 
+
+@keyframes panda-butt{
+    0%{
+        content: url(images/Panda-butt.png);
+    }
+    100%{
+        content: url(images/Panda-butt\ 2.png);
+    }
+}
+
+.question_6 .box_6{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda-hide 0.5s infinite alternate linear;
+} 
+@keyframes panda-hide{
+    0%{
+        content: url(images/Panda-hide\ .png);
+    }
+    100%{
+        content: url(images/Panda-hide\ \ 2.png);
+    }
+}
+
+.question_7 .box_7{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda-pear 0.5s infinite alternate linear;
+} 
+@keyframes panda-pear {
+    0%{
+        content: url(images/Panda-pear\ .png);
+    }
+    100%{
+        content: url(images/Panda-pear\ \ 2.png);
+    }
+}
+
+.question_8 .box_8{
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+    animation: panda-tongue 0.5s alternate linear infinite;
+} 
+
+@keyframes panda-tongue {
+    0%{
+        content: url(images/Panda-tongue\ .png);
+    }
+    100%{
+        content: url(images/Panda-tongue\ \ 2.png);
+    }
+}
+
+.question_9 .box_9{
+    margin: 15px;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid grey;
+} 
+
+h3{
+    font-family: "Sigmar", serif;
+    font-size: 25px;
+}
+
